@@ -1,0 +1,13 @@
+name: Custom issue
+description: File a feature request
+title: "[Title]"
+assignees:
+  - prostgles
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Issue details
+      value: "Description ..."
+    validations:
+      required: true

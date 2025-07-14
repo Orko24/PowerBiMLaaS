@@ -1,0 +1,27 @@
+name: Feature request
+description: File a feature request
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - prostgles
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: details
+    attributes:
+      label: Requested Behavior
+      description: What do you want to be able to do
+      value: "I need to "
+    validations:
+      required: true
+  - type: textarea
+    id: current-approach
+    attributes:
+      label: How to achieve this now
+      description: Current work arounds to accomplish requested behavior
+      value: "You have to "
+    validations:
+      required: false

@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+joblib
+matplotlib
+langchain-anthropic>=0.3.0
+pydantic>=2.7.4,<3.0.0

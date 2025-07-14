@@ -1,0 +1,33 @@
+{
+	"files": ["./src/index.ts"],
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "ES2022",
+		"lib": [ "ES2017", "es2019", "ES2021.String", "ES2022" ],
+		"esModuleInterop" : true,
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"module": "commonjs",
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"declaration": true,
+		"declarationMap": true,
+		"ignoreDeprecations": "5.0",
+		"strict": true,
+		"skipLibCheck": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"@common/*": [
+				"../commonTypes/*"
+			], 
+		},
+	},
+	"exclude": [
+		"dist",
+		"DBoGenerated.ts",
+		"*.conf"
+	],
+	"include": [
+		"src"
+	]
+}

@@ -1,0 +1,29 @@
+.Marked p,
+.Marked ul,
+.Marked ol,
+.Marked h1,
+.Marked h2,
+.Marked h3,
+.Marked h4,
+.Marked h5,
+.Marked blockquote,
+.Marked pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Marked ul,
+.Marked ol {
+  line-height: 1em;
+}
+
+.Marked ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Used to ensure the li marker does not appear above li item  
+.Marked ol > li {
+  line-height: 0;
+}
+  */ 
